@@ -100,7 +100,8 @@ Ahmed and Xing [1] — focus on the birth and death of topics
 The introduced module was termed infinite dynamic topic model (iDTM). epoch here means naturally grouped by time, for instance, yearly, based on conference or event , etc.
 
 This paper tries to solve the limitations of other dynamic topic modeling and also model the birth and death of topic model. it improves on limitations such as fixed topic size for each epoch,  cluster based method that assume single topic per document, topic popularity and so on. Evolutions was captured at different level, for example, the word evolution according to first-order state space model and the topic popularity according to the rich-get richer scheme via differnece order process (poly urn). (urn of balls of different colors, such that if you pick a color the ball is return and another ball of the same color is added to the urn). This paper also proposed a sampling algorithm for speeding up the processing by caching the sufficient statistics 
-The number of topic and the topic distribution can change over time
+The number of topic and the topic distribution can change over time. parameters of the model evolves in a markovian fasion.
+the hyperperameters in the model are delta and lambda. delta is the width of the decay  and lamdba is the decay factor
 
 Review a model of how word change over time to decide the best model to be used
 
