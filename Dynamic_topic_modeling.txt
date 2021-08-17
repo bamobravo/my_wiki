@@ -123,4 +123,4 @@ The first customer alwasy choose the first table
 {{./pasted_image.png}}
 
 
-conditional chain rule can be used to determine join probability of variable
+conditional chain rule can be used to determine join probability of variables. the concept of exchangeability works across board
