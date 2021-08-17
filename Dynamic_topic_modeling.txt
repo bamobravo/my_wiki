@@ -128,3 +128,5 @@ conditional chain rule can be used to determine join probability of variables. t
 
 
 when applying this concept to 
+
+but from the intuition on CRP , it is not going to form a cluster at the end of the day, like each data point belong to one partition
