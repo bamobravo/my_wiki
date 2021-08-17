@@ -6,7 +6,8 @@ Creation-Date: 2021-08-08T20:57:11+01:00
 Created Sunday 08 August 2021
 
 This is a collection of jotting from reviewed journals in this topic.
-There are state space model and epoch centric model
+There are state space model and epoch centric model.
+longitudinal data is
 
 **The factors to consider when dealing with topic models **(This is equivalent to factors to consider for sequential data such as time-series data)
 
