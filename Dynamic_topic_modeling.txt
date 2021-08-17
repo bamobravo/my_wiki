@@ -21,7 +21,7 @@ longitudinal data is use to study the effect of something over time by following
 7. **Topic breaking or merging over time (some for of heirarchical clustering) (I am yet to see a paper that is doing this)**
 
 
-
+Also, some DTM discretize time into some form of epoch, while other model time as continous, without any form of discretization like in TOT. will this model not have some form of performance implication?
 
 **Time-varying dynamic topic model: a better tool for mining microblogs at a global level**
 
@@ -136,5 +136,15 @@ but from the intuition on CRP , it is not going to form a cluster at the end of 
 **Topics over Time: A Non-Markov Continuous-Time Model of Topical Trends**
 Topic models , presents a low dimension muti-facet model of document, which could occur as a co-occurendce models of words (LDA),  words and research paper citation, word sequences with markov dependencies (mixed membership model of scientific publication in this paper words in abstract and bibiligraphy are treated as different mixtures), word sequences and markov dependencies (this is basically like trying to  infused the semantic gnerating by topic model with syntactic generation by markov model),word and author and , social network and messaging cases.
 
-This paper model time jointly with the word occurrence, meaning that part of the observed variables in document is the timestamp on the document. It does not use a state space model or markov assumption that involves some form of transition matrix
+This paper model time jointly with the word occurrence, meaning that part of the observed variables in document is the timestamp on the document. It does not use a state space model or markov assumption that involves some form of transition matrix. Topic are responsible for generating not just the word co-occurence but also the time attached with each topic. This models solves the problem of dynamic epoch aside from likely computation complexity that i imagine might occur. Even this model can be used to model death and birth of topics,
+
+"The model’s generative storyline can be understood in two
+different ways. We fit the model parameters according to a
+generative model in which a per-document multinomial dis-
+tribution over topics is sampled from a Dirichlet, then for
+each word occurrence we sample a topic; next a per-topic
+multinomial generates the word, and a per-topic Beta dis-
+tribution generates the document’s time stamp."
+
+Therefore, timestamp are associated with each word in a document, since the document carry the timestamp and the timestamp is observed.  alternative case is when the timestamp i s only attached to the document (the timestamp will need to be normalised  in some form, a small timestamp like let say minutes could  increase the complexity of the model )
 
