@@ -158,6 +158,8 @@ quantum mechanics—this could lead to a single topic that
 follows this trajectory, and lead the user to inappropriately
 conclude that birds and quantum mechanics are time-shifted
 versions of the same topic
-"
+".
+
+The whole concept in this paper is like indexing topic distribution by timestamp
 
 
