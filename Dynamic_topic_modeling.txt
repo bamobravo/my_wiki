@@ -20,8 +20,7 @@ longitudinal data is
 
 
 
-**Time-varying dynamic topic model: a better tool for mining microblogs at a**
-**global level**
+**Time-varying dynamic topic model: a better tool for mining microblogs at a global level**
 
 This paper make use of twitter microblog data and each was assume to contain a single topic based on the shortness. the main contribution is to make sure the number of topic is not fixed unlike some of the previous papers and also apply online (online Gibbs sampling) training of document as opposed to batch training.  
 
