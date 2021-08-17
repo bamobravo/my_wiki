@@ -146,5 +146,18 @@ each word occurrence we sample a topic; next a per-topic
 multinomial generates the word, and a per-topic Beta dis-
 tribution generates the document’s time stamp."
 
-Therefore, timestamp are associated with each word in a document, since the document carry the timestamp and the timestamp is observed.  alternative case is when the timestamp i s only attached to the document (the timestamp will need to be normalised  in some form, a small timestamp like let say minutes could  increase the complexity of the model )
+Therefore, timestamp are associated with each word in a document, since the document carry the timestamp and the timestamp is observed.  alternative case is when the timestamp i s only attached to the document (the timestamp will need to be normalised  in some form, a small timestamp like let say minutes could  increase the complexity of the model ). The continous model can as well model the dynamism based on the content in different part of the document, attaching the timestamp to the word will allow for this flexibility. 
+
+However, this paper does not capture the movement of topic overtime as this is somewhat fixed, but only captures the co-occurence of word in a topic in the given time (that is words are not getting added or droping from the topic). The point for this is not to allow some form of noise in the dynamic model. for example:
+
+"
+Imagine a subset of documents containing strong
+co-occurrence patterns across time: first between birds and
+aerodynamics, then aerodynamics and heat, then heat and
+quantum mechanics—this could lead to a single topic that
+follows this trajectory, and lead the user to inappropriately
+conclude that birds and quantum mechanics are time-shifted
+versions of the same topic
+"
+
 
