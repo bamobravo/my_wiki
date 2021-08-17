@@ -109,7 +109,13 @@ the chinese restaurant franchise problem explanations:
 
 The words are the customers, the documents are the restaurant, set of document shared menu and the customers will want to sit on different tables (topic) with different set of menu (the menu here represent the table as that might be the motivation for making a customer sit). a word (customer) can either join a table (topic) that already consist other words with probabiility  (number of  words currently in the topic / position of word (customer position if it is assumed that there is a queue or stream of customer entering the restaurant)-1 +  a parameter, alpha, that regulates the way people join restaurant) or the word (customer) can chose to join a new table with the probability (alpha/position of word -1 + alpha)  (new menu from the global restaurant menu).
 
-The chinese restuarant problem enables the topic to be unbounded, but still does not measure the evolution of topics
+The chinese restuarant problem enables the topic to be unbounded, but still does not measure the evolution of topics.
+
+A topic is considered dead when it is unused for some consecutive epoch.
+
+The work here was built  on ahmed and Xing 2008.
+
+
 
 
 
