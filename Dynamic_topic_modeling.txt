@@ -118,7 +118,9 @@ The work here was built  on ahmed and Xing 2008.
 
 The Chinese Restaurant
 
+The first customer alwasy choose the first table
+
+{{./pasted_image.png}}
 
 
-
-
+conditional chain rule can be used to determine join probability of variabls
