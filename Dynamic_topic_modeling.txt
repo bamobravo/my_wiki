@@ -19,6 +19,7 @@ longitudinal data is use to study the effect of something over time by following
 
 6. **The dynamic  distribution of each of the component (document and words) : **how does this items change and how does the change affect the  topic generally.
 7. **Topic breaking or merging over time (some for of heirarchical clustering) (I am yet to see a paper that is doing this)**
+8. **Topic co-occurrence over time**  (this is like dynamic correlated topic modeling)
 
 
 Also, some DTM discretize time into some form of epoch, while other model time as continous, without any form of discretization like in TOT. will this model not have some form of performance implication?
@@ -160,6 +161,6 @@ conclude that birds and quantum mechanics are time-shifted
 versions of the same topic
 ".
 
-The whole concept in this paper is like indexing topic distribution by timestamp
+The whole concept in this paper is like indexing topic distribution by timestamp and applied beta distritution  and Gibbs sampling
 
 
