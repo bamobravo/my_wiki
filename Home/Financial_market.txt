@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2021-04-15T00:00:00+01:00
+
+====== Financial market ======
+Created Thursday 15 April 2021
+
+[[VaR]]  — value at risk
+The percentage of how much the company will lose in dollar for a particular period of time.
+
+Stress test — test what will happen to an organization if some bad economic ish happened
+
+S & p 500 — STANDARD AND POOR OF 500 TOP COMPANIES

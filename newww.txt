@@ -1,0 +1,36 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2021-03-03T09:44:52+01:00
+
+====== newww ======
+Created Wednesday 03 March 2021
+
+63933726308
+712100
+
+configure and adjust.
+
+A form of dynamic programming, where the dictionary is already built as a graph, then use the graph or table lookup to split the text.
+
+
+
+You will need to specify the base of the percentage, just like i asked the other term...without that the contract presents some level of ambiguity
+
+Student Entry Session     can be set on tuition
+
+You have to create a payable fee, that can include split setting, that could then be added to 
+
+
+options
+
+--- pay 900k full equity, then annual maintainance fee
+--- no upfront payment, aside server use,10% equity
+--- 700k after n number signed up, then 5%
+
+
+/var/www/modeofstudy.ui.edu.ng
+
+
+
+
+

@@ -1,0 +1,61 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2021-08-09T15:00:43+01:00
+
+====== algorithms ======
+Created Monday 09 August 2021
+
+Heap data structure and heap sort.
+
+Heap data structure is used to implement priority queue. There is a key attached to each element
+
+Operatins of the  heap
+— insert : insert element into set
+— max: return element of S withthe largest key
+—  extract max: remove and return the element of max 
+— increase key :  increase the value of key, it gets the previous value
+
+heap is a data structure like an array but viewed as a nearly complete binary tree,
+such that the first index is the root of the tree and other element are added from left to right in a breath first manner.
+
+the root of the element is first element,
+the pareent of index i = i/2
+left of i = 2i
+right of i =2i+1.
+
+max heap properties say the key (looks like the value) of a node is greater than or equal to the key of its children.
+
+How to maintain max heap property
+max-heapify is used to build a max heap.
+
+The assumption of max-heapify assume left(i) and right(i) are max-heaps
+max-heapify(A,index)
+heap-size(A)
+so max-heapify finds the nodes that violate te property and then exchange recursively
+the assumption that left(i) and right(i) are max-heap
+
+build-max-heap(A):
+for i= n/2  to 1
+max-heap(A,i)
+
+for any array n/2+1---..n are leafs
+
+
+heap sort
+— build max heap form unordered array
+find max element A[1]
+
+swap top element with the button element  and delete the element, then write it down. 
+
+
+Binary Search Tree:
+
+This is a normal tree data structure with the invariant that the left node are less than or equal to the parent node and the  right node are greater than or equal to  the parent node
+
+
+AVL ---- MAKING A BINARY TREE BALANCED
+
+
+Counting sort is an algorithms for solving integers by counting each distinct element and record the number of times it occures in an array with the index of the number.
+radix sort  will imagine the integers to be in a particular base, and then sort each least significant bit by count sort until we get to the most significant bit
+

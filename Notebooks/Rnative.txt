@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2021-06-08T14:47:19+01:00
+
+====== Rnative ======
+Created Tuesday 08 June 2021
+
+Every thing is View 
+{{./pasted_image.png}}
+
+FlatList, [[ScrllView]] and [[SectionList]] can sho items that can scroll, scrollView 
+
+
+scrollview renders all items even when not visible....Flatlist rendder what is currently visible and sectionList is like [[FlatList]] but can produce heading for list
+
+{{./pasted_image001.png}}
+
+
+{{./pasted_image002.png}}
+
+To write platform specific codes, the  Platform module can be use, eithter by checking the value for the platform or using Platform.select , which is like a switch statement that selects the most appropriate key
+
+{{./pasted_image003.png}}
+
+platform specific extension can also be used to save file e.g
+
+{{./pasted_image004.png}}

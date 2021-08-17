@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-08-28T22:53:36+01:00
+
+====== hvrd ======
+Created Friday 28 August 2020
+
+Finale Doshi-Velez --- https://finale.seas.harvard.edu/publications?page=1
+
+
+Stuart M. Shieber --- http://www.eecs.harvard.edu/~shieber/
+
+
+replace the herfindelIndex with the broad portfoli in the databaset
+number of active borrowers femail
+control for location, numberofactive
+
+location for urban and location for rural

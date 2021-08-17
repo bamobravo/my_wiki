@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2021-05-13T01:45:37+01:00
+
+====== javascript note ======
+Created Thursday 13 May 2021
+
+Async and await function
+
+async keyword can be placed before a function
+The async function before the function keyword makes the function to return a promise automatically
+eg:
+
+async function f(){
+
+return 1
+}
+f().then(alert);
+
+await keyword is used inside a function with the async keyword
+
+the await wait for the promise to resolve so that the value ca be returned

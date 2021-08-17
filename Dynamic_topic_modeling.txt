@@ -1,0 +1,108 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2021-08-08T20:57:11+01:00
+
+====== Dynamic topic modeling ======
+Created Sunday 08 August 2021
+
+This is a collection of jotting from reviewed journals in this topic.
+There are state space model and epoch centric model
+
+**The factors to consider when dealing with topic models **(This is equivalent to factors to consider for sequential data such as time-series data)
+
+1. **How the topic distribution evolves** ( this will involve the semantic change in meaning of words, as the meaning of words changes, it is possible that the word will be associated with different word than was associated , before and the strenght of those relationship can also change)
+2. **Birth and end of topic ** (This is related to saying the size of the topic is dynamic, that is it is not fixed , that is topics can be added or removed)
+3. **The determination of time epoch** (how well to space the training document. questions like does, separating document by year, month, or weeks appropriate for setting the right time epoch)
+4. **Topic trend** (how the topic is increasing or decreasing , this can also have something to do with birth and death rate of topic and also related to topic distribution)
+5. **The dynamic  distribution of each of the component (document and words) : **how does this items change and how does the change affect the  topic generally
+
+
+
+
+**Time-varying dynamic topic model: a better tool for mining microblogs at a**
+**global level**
+
+This paper make use of twitter microblog data and each was assume to contain a single topic based on the shortness. the main contribution is to make sure the number of topic is not fixed unlike some of the previous papers and also apply online (online Gibbs sampling) training of document as opposed to batch training.  
+
+The paper also tries to make a separation between  personal and global post. Since microblogging are assumed to be about user personal preferences and thoughts.  The personal and global classification was achieved by  by comparing the topic with that of the user (publisher) long term of interest. if it matches, it is personal else it is global.
+
+The following items were considered:
+
+Vocabulary of the documents and timestamp to added to each of the post by the users. Also the users were noted. That is there is a fixed number of user denoted as U.
+each post is marked as personal or global.
+
+the global and personal tag enables the selection of 
+
+-specific or user specific measure. personal is time-specific while global is for user specific
+
+Other paper to consider from here:
+
+**Diao, Jiang, Zhu & Lim (2012)** : TimeUserLDA
+
+
+
+**IMS-DTM: Incremental Multi-Scale Dynamic Topic Models**
+
+According to this paper, traditional dynamic topic modeling require specific time period. for example in the DTM by Blei,  the time period for this topic is a year, but this may not the case, topic might not change every year, it could be every two year or even less. Also, some topics might die off and while other topics might emerge. it is also difficult to specify a perfect epoch. Therefore this paper proposed a method to make the time epoch selection dynamic. This is made possible by the evidences collected from multiple time scale. The paper also proposed a way to factor in multiscale efficiency  through a modification of Gibb sampling. The method is called. Multi-Scale Dynamic Topic Model (IMS-DTM).
+
+The documents here a split into different time scale each with varying epoch. therfore foreach timeslices, and the scales overlap with each other
+
+OTHER PAPERS TO CONSIDER FROM HERE:
+
+(Blei and McAuliffe 2007) — Some for of supervised DTM
+(Wang,Blei, and Heckerman 2008) — treat time as continuous
+
+
+QUESTIONS TO PONDER:
+what does it mean by non-conjugacy of multinomial and gaussian
+review the mathematical models in this paper
+
+
+**Sequential Modeling of Topic Dynamics with Multiple Timescales**
+
+proposed multi-scale dynamic topic models. This paper was built upon by the first IMS paper.
+
+OTHER PAPERS TO CONSIDER
+
+[Nallapati et al. 2007]
+
+**A Temporal Topic Model for Noisy Mediums**
+
+Based on graph model , the paper tries to remove the impact of domain specific words from topic.
+
+This paper tries to track topic through time, by considering topic emergence,persistence and dimishing  and also employ a form of state space model by making use of previous topic for new topic. The paper also employ a new metric : energy-nutrition ratio to identify inmportant terms inthe semantic graph to reduce flood or domain word for building the topic and a more efficient graph transversal method.
+
+The removal of flood word is important when analysing  some content specific topics. Defines terms like nutrition, energy and the nutrition-energy ratio.
+
+The nutrition is an indicator of how important the aterm is in a document  collection.Energy consider the change in nutrition of document at particular time t. To correct the energy calculation baised onver higher nutrition term, aan energy-nutrition ratio is used.
+The energy-nutrition ratio help determine if the rate is accelerating, decelearating or staying the same over time.
+
+This does not use a probabistic model like LDA, I do not really understand the output.
+
+OTHER PAPERS TO CONSIDER:
+Cataldi et al.
+
+**A Time-Dependent Topic Model for Multiple Text Streams**
+
+focuse ont eh problem of multiple data source stream  such that each stream can have both local and shared topic.Each topic is also identified with a time dependent function that that determines the topic similarity over time.
+The paper make use of Yahoo new and Twitter text streams. The model is based on LDA with a mdistribution of how the document will choose a local or common topics. Collapsed Gibbs sampling was used. 
+
+look at further, but really there is no new or super novel method in this paper.
+
+OTHER PAPERS TO CONSIDER:
+
+Ahmed and Xing [1] — focus on the birth and death of topics
+
+**Timeline: A Dynamic Hierarchical Dirichlet Process Model for**
+**Recovering Birth/Death and Evolution of Topics in Text Stream**
+
+
+The introduced module was termed infinite dynamic topic model (iDTM). epoch here means naturally grouped by time, for instance, yearly, based on conference or event , etc.
+
+This paper tries to solve the limitations of other dynamic topic modeling and also model the birth and death of topic model. it improves on limitations such as fixed topic size for each epoch,  cluster based method that assume single topic per document, topic popularity and so on. Evolutions was captured at different level, for example, the word evolution according to first-order state space model and the topic popularity according to the rich-get richer scheme via differnece order process (poly urn). (urn of balls of different colors, such that if you pick a color the ball is return and another ball of the same color is added to the urn). This paper also proposed a sampling algorithm for speeding up the processing by caching the sufficient statistics 
+The number of topic and the topic distribution can change over time
+
+Review a model of how word change over time to decide the best model to be used
+
+
+

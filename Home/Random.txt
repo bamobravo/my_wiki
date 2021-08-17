@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2021-04-26T14:45:54+01:00
+
+====== Random ======
+Created Monday 26 April 2021
+
+Admin
+Client Admin
+HMO --- third party
+sub admin
+— sub admin is basically the admin
+enrolleee
+
+Will the subadmin be able to perform all operations of the admin or it will be restricted.
+
+
+admin creates everybody's  account
+Will the principal enrollee be able to access his/her account:
+
+If yes, what will they be able to do?
+
+The client Admin has all the permission of the enrollee.
+

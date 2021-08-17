@@ -1,0 +1,47 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2021-08-13T22:25:05+01:00
+
+====== Linear algebra ======
+Created Friday 13 August 2021
+
+when multiplying a matrix by a vector. The result is the linear combination of the matrix by that vector. for example
+
+1,2,3                                   2
+2,4,6				6
+9,7,3				7
+
+Will be equal to the sum of 2  time first column, 6 time second column and 7 times third column , the result is then summmed to gether  to produce the output vector.
+
+if we imagine having all the possible 3 dimensional vector and then multiply the matrice with this , we get the column space of the matrix.
+
+orthogonal matrix are perpendicular to each other, which orthonormal means they are reduced to vectors.
+
+matrix multiplication can be seem as the sum of the colums of A multiply by the rows of B
+
+
+A= LU   — This is about elimination (solving linear system) L is lower triangular and U is upper triangular
+A=QR --- Q is an orthogonal matrix (the columns are perpendicular to each other, orhtonomal, is orthogonal but unit vector)
+
+S= QLQ — S is a symmetric matrix, Q contans eigen vector, L is a diagonal matrix of eigen value.
+
+Four fundamental subspace A of m by n rank r
+
+— column space
+— row space
+— null space
+— null space transpose
+
+null space is all solutions to Ax=0
+
+orthogonal matrix are square matrix. They do not change the geographic  lenght represented by the plane by which they multiply
+
+for square orthogonal matrix, inverse is equal to the transpose of the matrix.
+
+Household reflection = H = I-U^{T}U
+a symetric matrix is   S=S^{T}
+
+Ax=lamdda x  ,  where x is eigen vector and lamdba is the eigen values
+
+
+

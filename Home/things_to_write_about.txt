@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2021-02-02T14:52:55+01:00
+
+====== things to write about ======
+Created Tuesday 02 February 2021
+
+importancd of pseudocode in programming 
+
+suggested title
+
+Just before you learn to program: some notes about problem solving
+
+think about the best variable to query with
+
+zipcode,occupation,age,gender --maybe free companionContext for now

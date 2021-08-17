@@ -1,0 +1,41 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-07-30T14:01:09+01:00
+
+====== phd ======
+Created Thursday 30 July 2020
+
+second seminar  by november
+
+
+What problem is dynamic topic modeling trying to solve?
+Is dynamic topic modeling just treating document as time series data?
+Do the data need to be treated as time series?
+Are there methods that treat dynamic word embedding as time series data.
+If yes, what is the implication and how can this be resolve?
+Is there going to be a specific representation to make this evaluation possible?
+
+
+Seminar Two judging criteria 910
+
+--- is the oral presentation clear and well organised
+--- Are the objectives of the work clearly stated
+--- background and related work presented are they sufficient
+--- visual head are well produced and legible---- 25 font and above
+--- student responded well to technical question in a calm.
+--- use of words correctly
+
+
+
+
+
+Writing
+--- Title and abstract are they appropriate
+--- is the problme statement well statement
+--- model and methodology
+---contribution to knowledge
+---relevance of references
+--- result and conclusion clearly described
+
+
+

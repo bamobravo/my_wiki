@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2021-01-08T13:15:31+01:00
+
+====== Presentation ======
+Created Friday 08 January 2021
+
+collaborative intelligence
+
+CV parser
+Recommender Systems
+Prescriptive  Analytics
+
+
+Story
+nice fun picture
+
+the story of google working and how it is used.
+
+How CV parser come to be int he usage of google and typing prediction
+
+However, there might be a whole more benefit if out chat languages are integrated 
+
+The benefit of AI and it's usefulness

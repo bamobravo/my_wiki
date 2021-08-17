@@ -1,0 +1,68 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-07-05T11:31:57+01:00
+
+====== Some idea to try on CV parser ======
+
+
+[*] treat items with parenthesis differently
+[*] find a way to treat  change the score of institution with the address
+[*] separate the comma only from some maybe university and industy, so the code will only separate comma when there is an address
+[*] write a seprate chunk separator (this is to basically know when  comma is to be considered or not)
+[*] check the rules for role
+[*] put a score for the matches use a threshold of 0.8, so any detection with lesser probability will be ignored
+[*] test that the double column file are working with the new extractor
+[*] work on the date extraction so that dates between words are not extracted, an idea will be to first get the dates then look around for the words that are around the date (this doesnt seem to be important now)
+[*] try running random forest classifier 
+[*] let the feature extraction step work on a string and not a list of words
+[*] run automated test to see what is breaking and what is not correct
+[*] speak with vivian to create the needed document
+[*] determine how to determine when to split with hyphen and when not to
+[ ] consider the case when the degree is extracted as bachelors degree b.sc and other similar ones
+[*] add conditional regex with the used group name
+[*] test the regex
+[*] fix the bug with the dictionary overwritten matches
+[*] create a  new module to filter the skills out
+[ ] write a classifier to filter skills out and integrate as a addon layer 
+[*] some wrong words are getting matched by the segmenter module, look into this
+[*] something seems to be wrong with the date extraction or the test data look into this
+[*] there seems to be a lot of missing information, might need to revalidate the test data
+[*] there is still a problem with the segmentation(create separate 'separator' for each of the CV segment, instead of a generic one)
+[*] how do i perform better chunking (use allword for a rule-based chunking then think about training a chunk classifier after) also when dealing with  chunking the most important group of words will be the word that can start a chunk and the words that can end it based on CV.
+[*] need more accurate model expecially looking at the feature generation process ()
+
+[ ] merge the section that is performing education and certification extraction to reduce mix up between those two sections??? (have another function that tries to perform the separation is one othe fields is empty)
+[*] when extracting the address, get the address with the longest character, that will most likely not , state of origin or place of birth, also check for any words like this to know if to pick a shorter words or longer ones(turns out the address and personal model might need trainings with new data)
+[*] add the metrics script
+[*] write function to clean up the verb list by removing word that can both behave as verbs and also as nouns
+[ ] Add to the list of companies that you have , list of organisations, you can ask Cecilia for help
+[ ] Try removing every other words that occured in your list from the verblist
+[ ] cascade the date extracting code to start from the difficult to easy
+
+add the presence of words like in, from by , to prevent fetching data that are inline from fetching legitimate dates.
+
+write script to determine if career summary heading should be added to irrelevant or experience
+
+better test the test reflow function
+
+treat the content before the parenthesis  for organisation
+look at the sementer and consider the spacing  needed spacing, seems to be smaller spacing for table layouts(trained chunker might do this, but, that is a 
+kind of difficult to get right)
+
+[ ] perform a better extracting course from degree
+
+
+extract CV for Vivian ...the new Cv 
+
+Some stuffs on regular expression
+
+positive look ahead looks like, match this thing onlyy if it is followed by the content in  the lookaround block
+negative look ahead be like match if this is not followed by the content in the lookaround box
+
+
+https://talent-up-bend.herokuapp.com/cv_parser/user/signup
+
+
+(?(id/name)yes-pattern|no-pattern)
+
+this will be useful for matching the required 

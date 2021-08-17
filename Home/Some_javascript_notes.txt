@@ -1,0 +1,121 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2021-05-01T20:48:13+01:00
+
+====== Some javascript notes ======
+Created Saturday 01 May 2021
+
+Some notes on redux react
+
+to copy object in javascript, you can use the syntax below:
+
+cons newValue = {...oldObject};
+then you can go ahead and edit the initial object 
+immutability is important in redux react
+
+redux contains three main aspects, action, view and the state.
+
+The state is the truth about the application, the view is the current look of the application and action is like an event that has a type and determines how to change the state of the application
+
+the action is usually written as domain/eventName: the first part is the category the action belongs to while the last part signifies the specific thing the action is doing.
+aside the type parameter, the action object can contain other property that is required for the action. this extra information is known as the payload.
+for example 
+const addTodoAction={
+type:'todos/todoAdded',
+payload:'buy milk'
+}
+
+There could be an action creator which is a function to create an action object. 
+This usefull so as not to create actions by hand.
+
+
+Then there is a reducer:
+A reducer is a function that recieves the curret state and an action object , then decide to update the state if necessary and then return the new state
+
+There are basic two steps in a reducer fuction, the first is to check the received action object and decide if an update is required, if an object is not required, then return the current state unchanged else, move to step two
+
+In step two the reducere will make a copy of the current state , make changes and then return the changed copy. It is omportaant that the reducre does not mutate the current state.
+
+making a copy and updating the  copy can be achieved with the following line of code
+{
+...state,
+value:state.value+1
+}
+
+The concept of map and reduce in javascript array
+
+the array map function takes a function that will be applied on each element in the array,. it transforms each of the elements in the array. The function to be passed can take three argument: the element in the arry, the index of the element and the array itself.
+
+The reduce function help return a simple value and like the map , it run on each item in the array. the function to be passed could have the following signature:
+function(previousValue,currentItem,index, the Array)
+
+
+The store
+the store holds the current state of the application.  The store contains a dispaatch function , that can be used to update it self, the dispatch functon take an action object.
+assume dispatch means triggering an event. The action creator can be asked to dispatch an action here
+
+
+selectors are functions that can help select a particular aspect of the state; is that now what the reducer is doing?
+
+The state is configured by passing the reducers
+, also slices of reducers can be passed into the stage
+
+export default configureStore({
+  reducer: {
+	users: usersReducer,
+	posts: postsReducer,
+	comments: commentsReducer
+  }
+})
+
+
+still on react redux
+
+mapDispatchToProps signifies what  dispatch method will be available for the  compnent. The same thing applices to  mapStateToProps
+
+
+import { createStore } from "redux";
+import rootReducer from "../reducers/index";
+
+
+The code below just create the store
+
+import { createStore } from "redux";
+import rootReducer from "../reducers/index";
+
+const store = createStore(rootReducer);
+
+export default store;
+
+
+you create a list of actions using the snippet below:
+export function addArticle(payload) {
+  return { type: "ADD_ARTICLE", payload }
+};
+
+The function above is know as an action creator
+
+
+The store has two function, 
+
+Subscribe: the subscribe function take a function that will be called whenever an action is dispatched
+
+dispatch, t
+
+
+mapStateToProps does exactly what its name suggests: it connects a part of the Redux state to the props of a React component. By doing so a connected React component will have access to the exact part of the store it needs.
+
+mapDispatchToProps does something similar, but for actions. mapDispatchToProps connects Redux actions to React props. This way a connected React component will be able to send messages to the store.
+
+import { createStore, applyMiddleware } from "redux";
+import rootReducer from "../reducers/index";
+import { forbiddenWordsMiddleware } from "../middleware";
+
+const store = createStore(
+  rootReducer,
+  applyMiddleware(forbiddenWordsMiddleware)
+);
+
+export default store;
+
+createSlice is used to connect both the reducer and the action togthere

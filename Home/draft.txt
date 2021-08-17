@@ -1,0 +1,32 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-09-17T13:41:08+01:00
+
+====== draft ======
+Created Thursday 17 September 2020
+
+Bayesian Synchronous Tree-Substitution Grammar Induction and Its Application to Sentence Compression.
+
+Some ideas around that might actually work though
+
+extractive sentencecompression.
+
+extraactive sentence compression, summarise by removing words
+
+Request as Host during visiting program. 
+
+My name is Seun Osuntoki. I am currently a [[PhD]] candidate at the university of Lagos,Nigeria. My research is based on Topic modeling, specifically looking at the time evolution of topics. I am currently in my second year of study and prior to becoming a [[PhD]] candiate, i have worked as a software developer and also have experience as a data scientist. Below  is  the link to my linkedin profile for more information about my professional experience.
+
+www.linkedin.com/in/seun-osuntoki
+
+I read your paper on 'Bayesian Synchronous Tree-Substitution Grammar Induction and Its Application to Sentence Compression'  and i found the sentence compression interesting expecially extractive sentence compression and the ideological similarity  to topic modeling. I also found other interesting publication on computational linguistics and Natural Language Processing.
+
+I am interesting in becoming a visiting fellow at the Harvard University and I will like you to be my host during my visit.
+
+
+
+Thank you.
+
+
+
+regular should carry regular and 

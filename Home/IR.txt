@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2021-03-15T11:22:31+01:00
+
+====== IR ======
+Created Monday 15 March 2021
+
+--create a data crawler
+
+The crawler classify the content before saving. To be sure tha the data is relevant.
+I have to determine page relevance, and describe the algorithm for doing that.
+
+The crawler
+- save the link and the date the link was access for the revisit policy.

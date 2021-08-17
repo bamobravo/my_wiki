@@ -1,0 +1,85 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2021-02-24T23:21:10+01:00
+
+====== notes ======
+Created Wednesday 24 February 2021
+
+ More specifically, when its column vectors have the length of one, and are pairwise orthogonal; likewise for the row vectors.
+orthogonal matrix have inverse and transpose the same.
+
+also the lenght is equal to on, when each column is like that/
+
+orthogonal vectors has dot product equals 0
+
+
+{{./pasted_image.png}}
+
+Prior is the probability distribution that we know before there is an additional information. could this means that prior could be relative to a particular even or probability distribution?
+Posterior probability is the probability distribution after the extra information has been supplied.
+
+When dealing with probability distribution, it will be easy to understand some of the concept using an histogram
+
+Marginal probability distribution of a random variable is the over all it conditional partition.
+Probability mass function is for discrete variable while probability density function is for continous variable.
+The probability that x will like in an interval is given by: 
+
+{{./pasted_image001.png}}
+
+
+expectation of a random variable is a single value that can represent the distribution...like an average
+
+variance can be regarded as an expectation ofthe quare different of mean and value
+variance = {{./pasted_image002.png}}
+
+covariance measures the relationshp betweeen to variable
+Correlation measures the strength of the relationship between variables
+
+When performing training to estimate  model, the process can be view as a bayesian probabilistic model>
+Sicne the aim of the training is to get the values of some set of parameters given the observation data, initially we hava an assu;mption about the value for the parameters
+This assumption is our prior, the task it to estimate the posterior values for the parameters after observig the data . this statemen can be represented mathematically by the  formular below:
+{{./pasted_image003.png}}
+
+Likelihood function expresses how probable the observed data set is giving different values for the parameter. Represented as:
+p(D|w)
+
+
+minimizing square error, has a Guassian error assumption
+
+Information theory
+
+An event that has not happened before has much information that the one that happens more frequently
+The
+noiseless coding theorem (Shannon, 1948) states that the entropy is a lower bound
+on the number of bits needed to transmit the state of a random variable.
+
+The stationary point of a funciton is the point where the rate of change is zero. the minimum or maximum of the function. The function must be a differntiable function.
+
+Another way to write the system of equations in the first step is
+Lx(a,b,c,λ)=Ly(a,b,c,λ)=Lz(a,b,c,λ)=Lλ(a,b,c,λ)=0
+Lx---differentiate wrt to x and
+
+ L(x,y,z,λ)=f(x,y,z)−λg(x,y,z)
+
+When dealing with lagrange optimization problem with inequality constraint, the inequality cases need to be separated and treated differently 
+
+
+in inequality cases, legrange optimization might have three cases as 
+g(x)>=0
+multiplier>=0
+multiplier*g(x) > 0
+
+
+
+ditribution function is a function of the whole sample space into a real number, expectation is single number that explains the distribrution
+
+
+Heap data struture representation of an array
+is about representing the tree as binary tree
+
+The key of a node is greate than the key of the children for max heap
+
+
+heap operations
+build max-heap
+

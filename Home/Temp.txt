@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2021-05-11T21:59:10+01:00
+
+====== Temp ======
+Created Tuesday 11 May 2021
+
+Pls see the following tables: admission_programme_requirement, applicants, applicant_payment, applicant_transaction
+
+applicant_payment
+applicant_transaction
+
+some things to note on the new registration application.
+
+There is some level of route to  https://dlcoffice.ui.edu.ng/api/v2/student/fee_details/LW6m0oyAX3xPnwD2k3zg
+
+
+

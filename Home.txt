@@ -1,0 +1,53 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-06-23T17:12:45+01:00
+
+====== Home ======
+Created Tuesday 23 June 2020
+
+G. Xun, V. Gopalakrishnam,F.Li et al.   2017
+
+D. Mimno,H. Wallach,I.Talley et al.  2011
+
+
+The inverse regression topic model
+
+M. Rabinovich and D. Blei 
+
+2014
+
+
+Supervised Topic Model
+
+D. Blei,J.Mcauliffe
+
+D.Jiang et al.
+
+Federated Topic modeling
+2019
+
+Structural topic model for latent topical structure analysis
+
+2011
+
+H. Wang et. al
+
+G. Xun et al 
+H. 2017
+
+Anandkumar 20/13
+
+
+Avrim Blum and Nika Haghtalab
+
+
+T. Wai and S. Aung
+
+2018
+
+present after presenting all the algorithm
+arrange in chronological order
+change the typos.
+
+problems with approximation algorithm.
+sparcity is a problem.
