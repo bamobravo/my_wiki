@@ -123,4 +123,7 @@ The first customer alwasy choose the first table
 {{./pasted_image.png}}
 
 
-conditional chain rule can be used to determine join probability of variables. the concept of exchangeability works across board
+conditional chain rule can be used to determine join probability of variables. the concept of exchangeability works across board, within and without the clusters so far the number of siting arrangement is made. for example, the probability of different permutation of clusters with 3,3,4 element will always be the same irrespective of the arrangement.
+
+
+when applying this concept to 
