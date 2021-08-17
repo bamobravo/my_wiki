@@ -15,7 +15,8 @@ longitudinal data is use to study the effect of something over time by following
 
 3. **Birth and end of topic ** (This is related to saying the size of the topic is dynamic, that is it is not fixed , that is topics can be added or removed)
 4. **The determination of time epoch** (how well to space the training document. questions like does, separating document by year, month, or weeks appropriate for setting the right time epoch)
-5. **Topic trend** (how the topic is increasing or decreasing , this can also have something to do with birth and death rate of topic and also related to topic distribution)
+5. **Topic trend** (how the topic is increasing or decreasing , this can also have something to do with birth and death rate of topic and also related to topic distribution).  Another example is in  (finding scientific topic) where the popularity, regarded as the hotness and coldness of a topic is measured. The method used here does not model topic improvement over time, like in a state space model
+
 6. **The dynamic  distribution of each of the component (document and words) : **how does this items change and how does the change affect the  topic generally.
 7. **Topic breaking or merging over time (some for of heirarchical clustering) (I am yet to see a paper that is doing this)**
 
@@ -134,4 +135,6 @@ but from the intuition on CRP , it is not going to form a cluster at the end of 
 
 **Topics over Time: A Non-Markov Continuous-Time Model of Topical Trends**
 Topic models , presents a low dimension muti-facet model of document, which could occur as a co-occurendce models of words (LDA),  words and research paper citation, word sequences with markov dependencies (mixed membership model of scientific publication in this paper words in abstract and bibiligraphy are treated as different mixtures), word sequences and markov dependencies (this is basically like trying to  infused the semantic gnerating by topic model with syntactic generation by markov model),word and author and , social network and messaging cases.
+
+This paper model time jointly with the word occurrence, meaning that part of the observed variables in document is the timestamp on the document. It does not use a state space model or markov assumption that involves some form of transition matrix
 
