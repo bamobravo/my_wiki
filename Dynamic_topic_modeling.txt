@@ -164,3 +164,8 @@ versions of the same topic
 The whole concept in this paper is like indexing topic distribution by timestamp and applied beta distritution  and Gibbs sampling
 
 
+**Dynamic Mixture Models for Multiple Time Series**
+
+other things to review :
+
+bursty  : what does this means?
