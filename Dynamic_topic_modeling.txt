@@ -9,6 +9,8 @@ This is a collection of jotting from reviewed journals in this topic.
 There are state space model and epoch centric model.
 longitudinal data is use to study the effect of something over time by following and observing the same set of objects overtime. Unlike cross-sectional data that compares different object.
 
+Traditional topic model algorithms assume documents are exchangeable, that is the order in which the document was created does not matter
+
 **The factors to consider when dealing with topic models **(This is equivalent to factors to consider for sequential data such as time-series data)
 
 1. **How the topic distribution evolves** ( this will involve the semantic change in meaning of words, as the meaning of words changes, it is possible that the word will be associated with different word than was associated , before and the strenght of those relationship can also change). This also mean word correlation
@@ -166,6 +168,13 @@ The whole concept in this paper is like indexing topic distribution by timestamp
 
 **Dynamic Mixture Models for Multiple Time Series**
 
+The generative model is similar to that of LDA except the parameter as sample from that generated from the previous time t-1 except for the first one that is generated from a dirchlet distribution. the models is applied to stream of text data.
+
+{{./pasted_image001.png}}
+
 other things to review :
 
 bursty  : used to describe computer data that is sent in short, sudden periods of activity: 
+
+
+**A nonparametric mixture model for topic modeling over time**
