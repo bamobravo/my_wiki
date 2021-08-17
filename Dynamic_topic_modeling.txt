@@ -168,4 +168,4 @@ The whole concept in this paper is like indexing topic distribution by timestamp
 
 other things to review :
 
-bursty  : what does this means?
+bursty  : used to describe computer data that is sent in short, sudden periods of activity: 
