@@ -7,7 +7,7 @@ Created Sunday 08 August 2021
 
 This is a collection of jotting from reviewed journals in this topic.
 There are state space model and epoch centric model.
-longitudinal data is
+longitudinal data is use to study the effect of something over time by following and observing the same set of objects overtime. Unlike cross-sectional data that compares different object.
 
 **The factors to consider when dealing with topic models **(This is equivalent to factors to consider for sequential data such as time-series data)
 
