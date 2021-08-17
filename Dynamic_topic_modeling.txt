@@ -123,4 +123,4 @@ The first customer alwasy choose the first table
 {{./pasted_image.png}}
 
 
-conditional chain rule can be used to determine join probability of variabls
+conditional chain rule can be used to determine join probability of variable
