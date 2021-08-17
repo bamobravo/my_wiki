@@ -11,12 +11,13 @@ longitudinal data is use to study the effect of something over time by following
 
 **The factors to consider when dealing with topic models **(This is equivalent to factors to consider for sequential data such as time-series data)
 
-1. **How the topic distribution evolves** ( this will involve the semantic change in meaning of words, as the meaning of words changes, it is possible that the word will be associated with different word than was associated , before and the strenght of those relationship can also change)
+1. **How the topic distribution evolves** ( this will involve the semantic change in meaning of words, as the meaning of words changes, it is possible that the word will be associated with different word than was associated , before and the strenght of those relationship can also change). This also mean word correlation
 
 3. **Birth and end of topic ** (This is related to saying the size of the topic is dynamic, that is it is not fixed , that is topics can be added or removed)
 4. **The determination of time epoch** (how well to space the training document. questions like does, separating document by year, month, or weeks appropriate for setting the right time epoch)
 5. **Topic trend** (how the topic is increasing or decreasing , this can also have something to do with birth and death rate of topic and also related to topic distribution)
-6. **The dynamic  distribution of each of the component (document and words) : **how does this items change and how does the change affect the  topic generally
+6. **The dynamic  distribution of each of the component (document and words) : **how does this items change and how does the change affect the  topic generally.
+7. **Topic breaking or merging over time (some for of heirarchical clustering) (I am yet to see a paper that is doing this)**
 
 
 
