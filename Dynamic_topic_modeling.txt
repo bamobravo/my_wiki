@@ -132,4 +132,5 @@ when applying this concept to
 but from the intuition on CRP , it is not going to form a cluster at the end of the day, like each data point belong to one partition
 
 **Topics over Time: A Non-Markov Continuous-Time Model of Topical Trends**
-Topic models , presents a low dimension muti-facet model of document, which could occur as a co-occurendce models of words (LDA),  words and research paper citation, word sequences with markov dependencies (mixed membership model of scientific publication)
+Topic models , presents a low dimension muti-facet model of document, which could occur as a co-occurendce models of words (LDA),  words and research paper citation, word sequences with markov dependencies (mixed membership model of scientific publication in this paper words in abstract and bibiligraphy are treated as different mixtures), word sequences and markov dependencies (this is basically like trying to  infused the semantic gnerating by topic model with syntactic generation by markov model),word and author and , social network and messaging cases.
+
