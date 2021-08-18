@@ -201,3 +201,6 @@ bursty  : used to describe computer data that is sent in short, sudden periods o
 
 
 **A nonparametric mixture model for topic modeling over time**
+
+This paper tries to sove the problem with TOT by introducting topic flexibility in terms of topic size and topic distribution over time by making use of a non parametric topic modeling method (Hierarchical DP).
+The topic distribution in TOT is also unimodal and therfore , thei paper tries to solve that by proposing a  different distribution. he infernece was done using Gibbs sampling
