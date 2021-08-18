@@ -9,6 +9,9 @@ This is a collection of jotting from reviewed journals in this topic.
 There are state space model and epoch centric model.
 longitudinal data is use to study the effect of something over time by following and observing the same set of objects overtime. Unlike cross-sectional data that compares different object.
 
+dirichlet distribution
+a distribution of k-simplex where an example of a simplex is (0.3,0.6,0.1). This example is a 3-dimensional simplex. To undestand dirichlet distributions imagine a set of every 3 real valued number that all add up to one  and each one has the probability of occuring.  This is a dirichlet distribution.
+
 Traditional topic model algorithms assume documents are exchangeable, that is the order in which the document was created does not matter.
 
 parametric topic modeling algorithm require a set of parameter , for example, LDA require that the  size of the topic should be fixed. Nonparametric methods does not suffer from this shortcomings. An example of nonparametric methods is Heirarchical dirichlet process (HDP)
