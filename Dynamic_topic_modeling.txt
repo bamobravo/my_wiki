@@ -27,7 +27,7 @@ A drichlet process is a distribution over probability measures (like simplex in 
 Meaning the overall distribution of the partition is the dirichlet process with the base distribution as A and concentration parameters a α .
 
 DP can be represented in as distribution over probability measures like that of the dirichlet distribution or 
- Chinese Restaurant Process
+ Chinese Restaurant Process.  The different represnentation describe how the measure is being consstructed
 
 Traditional topic model algorithms assume documents are exchangeable, that is the order in which the document was created does not matter.
 
