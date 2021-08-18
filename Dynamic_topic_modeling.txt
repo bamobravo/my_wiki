@@ -20,7 +20,14 @@ the parameters are  alpha as shown in the diagram above. the only strange symbol
 
 Dirichlet process
 
-A drichlet process is a distribution over probability measures (like simplex in dirichlet distribution) and it has two parameters, H, the base distibution, like the mean of the DP, α 
+A drichlet process is a distribution over probability measures (like simplex in dirichlet distribution) and it has two parameters, H, the base distibution, like the mean of the DP, α is like the strenght parameter, like the inverse-variance (variance shows the spread, this shows the concentration)
+
+{{./pasted_image004.png}}
+
+Meaning the overall distribution of the partition is the dirichlet process with the base distribution as A and concentration parameters a α .
+
+DP can be represented in as distribution over probability measures like that of the dirichlet distribution or 
+ Chinese Restaurant Process
 
 Traditional topic model algorithms assume documents are exchangeable, that is the order in which the document was created does not matter.
 
